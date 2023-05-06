@@ -1,0 +1,11 @@
+<div class="card text-white bg-dark border-light cursor-pointer" (click)="onClicked()">
+    <div class="card-body">
+        <h5 class="card-title">
+            {{collection.name}} <span class="badge rounded-pill text-bg-primary">{{topicsCount}}</span>
+        </h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{collection.description}}</h6>
+        <div *ngIf="topicsCount === 0" class="text-center">
+            <span class="badge text-bg-secondary">Coming soon!</span>
+        </div>
+    </div>
+</div>

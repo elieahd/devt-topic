@@ -1,0 +1,17 @@
+<devt-back-button (back)="goToCollectionsRoute()"></devt-back-button>
+
+<devt-header-detail [title]="collectionName" [description]="collectionDescription"/>
+
+<div class="align-middle mt-4">
+    <div *ngIf="randomTopic as topic; else elseBlock">
+        <devt-topic-card-item [topic]="topic"></devt-topic-card-item>
+        <div class="text-center mt-3">
+            <button type="button" class="btn btn-outline-light" (click)="setRandomTopic()">
+                <span class="icon bi-arrow-repeat"></span>
+            </button>
+        </div> 
+    </div>
+    <ng-template #elseBlock>
+        <h2 class="text-white text-center ">Comming soon!</h2>
+    </ng-template>
+</div>
