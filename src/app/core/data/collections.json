@@ -141,7 +141,7 @@
     {
         "id": 5,
         "name": "Date idea",
-        "description": "Collection description",
+        "description": "Collection of date ideas",
         "topics": [
             { "id": 1, "value": "Put on an Italian playlist and make pizzas from scratch, only speaking in Italian accents all evening" },
             { "id": 1, "value": "Write 7 short and funny poems each" },
@@ -158,7 +158,7 @@
     {
         "id": 6,
         "name": "Virtual date idea",
-        "description": "Collection description",
+        "description": "Collection of date ideas that can be done virtually",
         "topics": [
         ]
     }

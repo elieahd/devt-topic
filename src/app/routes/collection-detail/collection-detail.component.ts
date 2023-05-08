@@ -47,8 +47,15 @@ export class CollectionDetailComponent implements OnInit {
 
   setRandomTopic(): void {
     if (this.hasTopic) {
-      this.randomTopic = this.topics[Math.floor(Math.random() * this.topics.length)];
+      let newRandomTopic = this.getRandomTopic();
+      while (newRandomTopic == this.randomTopic) {
+        newRandomTopic = this.getRandomTopic();
+      }
     }
+  }
+
+  getRandomTopic(): Topic {
+    return this.topics[Math.floor(Math.random() * this.topics.length)];
   }
 
   goToCollectionsRoute(): void {
