@@ -85,7 +85,13 @@
             { "id": 1, "value": "What does living a 'good life' means to you?" },
             { "id": 1, "value": "What's something you'd try if no one in the world could judge you?" },
             { "id": 1, "value": "What would you change in your life if you had unlimited life?" },
-            { "id": 1, "value": "If you could choose to live forever, would you?" }
+            { "id": 1, "value": "If you could choose to live forever, would you?" },
+            { "id": 1, "value": "What's your favorite nickname to be called?" },
+            { "id": 1, "value": "Is there a clothing brand that you love?" },
+            { "id": 1, "value": "What city do you want to live in after you retire?" },
+            { "id": 1, "value": "What subject were you best at in school?" },
+            { "id": 1, "value": "What's your best friend name? What do you love about them?" },
+            { "id": 1, "value": "How are you and your siblings different?" }
         ]
     },
     {
@@ -123,19 +129,37 @@
             { "id": 1, "value": "What do I do that makes you feel most appreciated and loved?" },
             { "id": 1, "value": "Is there anything you'd like to share with me but haven't yet?" },
             { "id": 1, "value": "Are there any boundaries that we should know about each other" },
-            { "id": 1, "value": "What compliments feel best to receive? Can you give me examples?" }
+            { "id": 1, "value": "What compliments feel best to receive? Can you give me examples?" },
+            { "id": 1, "value": "When did you first realise you had feelings for me?" },
+            { "id": 1, "value": "What's your favorite silly memory of us?" },
+            { "id": 1, "value": "What makes our relationship so unique?" },
+            { "id": 1, "value": "What are some red flags for you in a relationship?" },
+            { "id": 1, "value": "What is the most romantic thing I've ever done for you?" },
+            { "id": 1, "value": "What are some red flags for you in a relationship?" }
         ]
     },
     {
         "id": 5,
         "name": "Date idea",
         "description": "Collection description",
-        "topics": []
+        "topics": [
+            { "id": 1, "value": "Put on an Italian playlist and make pizzas from scratch, only speaking in Italian accents all evening" },
+            { "id": 1, "value": "Write 7 short and funny poems each" },
+            { "id": 1, "value": "Indoor picnic" },
+            { "id": 1, "value": "Solve a murder mystery game" },
+            { "id": 1, "value": "Axe throwing" },
+            { "id": 1, "value": "Bowling" },
+            { "id": 1, "value": "Comedy club" },
+            { "id": 1, "value": "Outdoor cinema screening" },
+            { "id": 1, "value": "Record your own private podcast" },
+            { "id": 1, "value": "Long night drive" }
+        ]
     },
     {
         "id": 6,
         "name": "Virtual date idea",
         "description": "Collection description",
-        "topics": []
+        "topics": [
+        ]
     }
 ]
