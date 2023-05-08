@@ -59,7 +59,7 @@ export class CollectionDetailComponent implements OnInit {
   }
 
   goToCollectionsRoute(): void {
-    this.router.navigateByUrl(`/collections`);
+    this.router.navigateByUrl(`/`);
   }
 
 }

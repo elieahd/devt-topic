@@ -13,7 +13,7 @@ export class CollectionCardItemComponent {
   constructor(private readonly router: Router) {}
 
   onClicked(): void {
-    this.router.navigateByUrl(`/collections/${this.collection.id}`);
+    this.router.navigateByUrl(`/${this.collection.id}`);
   }
 
   get topicsCount(): number {

@@ -6,9 +6,8 @@ import { CollectionListComponent } from './collection-list/collection-list.compo
 import { CollectionDetailComponent } from './collection-detail/collection-detail.component';
 
 const ROUTES: Routes = [
-  { path: 'collections', component: CollectionListComponent },
-  { path: 'collections/:id', component: CollectionDetailComponent },
-  { path: '', redirectTo: 'collections', pathMatch: 'full' },
+  { path: '', component: CollectionListComponent  },
+  { path: ':id', component: CollectionDetailComponent },
   { path: '**', redirectTo: 'collections', pathMatch: 'full' }
 ];
 
